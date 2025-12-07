@@ -25,11 +25,11 @@ def part_two_code(lines: list):
 
 
 if __name__ == '__main__':
-    print('----- part one -----')
+    print('--------- part one ---------')
     compute_answer(SAMPLE_FILENAME, part_one_code, PART_ONE_SAMPLE_ANSWER)
     print("part one answer:", compute_answer(REAL_DATA_FILENAME, part_one_code))
-    print('----- part two -----')
+    print('--------- part two ---------')
     compute_answer(SAMPLE_FILENAME, part_two_code, PART_TWO_SAMPLE_ANSWER)
-    print("part one answer:", compute_answer(REAL_DATA_FILENAME, part_two_code))
-    print('--------------------')
+    print("part two answer:", compute_answer(REAL_DATA_FILENAME, part_two_code))
+    print('----------------------------')
 
